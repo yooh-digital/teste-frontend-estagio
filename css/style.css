@@ -1,0 +1,50 @@
+body {
+    width: 99%;
+}
+
+
+/* Menu NavBar */
+#logo {
+    margin-left: 17%;
+    margin-right: 50%;
+}
+
+
+#logo img {
+    position: absolute;
+    margin-top: 2px;
+    width: 60px;
+}
+
+
+#menu {
+    background-color: rgb(41,86,124);
+    border-bottom: 1px solid black;
+}
+
+#navbar {
+    display: block;
+    margin-right: 10%;
+    margin-left: 50%;
+    margin-bottom: 20px;
+    padding-top: 25px;
+    text-align: right;
+}
+
+#navbar a:link, a:visited {
+    text-decoration: none;
+    color: rgb(147,192,228);
+    padding: 0px 20px 0px 20px;
+}
+
+#navbar a:hover, a:active {
+    color: rgb(255,255,255);
+}
+
+
+/* Page Home */
+#home {
+    background-color: rgb(41,86,124);
+    color: rgb(255,255,255);
+    text-align: center;
+}
