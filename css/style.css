@@ -18,7 +18,7 @@ body {
 
 
 #menu {
-    background-color: rgb(41,86,124);
+    background-color: rgb(44,62,80);
     border-bottom: 1px solid black;
 }
 
@@ -44,7 +44,50 @@ body {
 
 /* Page Home */
 #home {
-    background-color: rgb(41,86,124);
+    background-color: rgb(44,62,80);
     color: rgb(255,255,255);
     text-align: center;
+    border-top: 1px solid black;
+}
+
+
+/* Page About */
+#about {
+    text-align: center;
+    color: rgb(107,107,107);
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+/* Page Our Team */
+#team {
+    background-color: rgb(230,230,230);
+    text-align: center;
+    color: rgb(107,107,107);
+}
+
+#team img {
+    border: 8px solid darkgray;
+    border-radius: 200px 200px 200px 200px;
+}
+
+#img_01 {
+    display: inline-block;
+    width: 40%;
+}
+
+#img_02 {
+    display: inline-block;
+    width: 40%;
+}
+
+#img_03 {
+    display: inline-block;
+    width: 40%;
+}
+
+#img_04 {
+    display: inline-block;
+    width: 40%;
 }
