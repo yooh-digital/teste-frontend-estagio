@@ -277,11 +277,10 @@ input[type=submit] {
 }
 
 
-.container {
-    border-radius: 5px;
+.form {
     margin-top: 30px;
-    padding-top: 30px 30px 0px 0px;
-    float: center;
+    margin-right: 10%;
+    margin-left: 20%;
 }
 
 .col-100 {
@@ -298,7 +297,7 @@ input[type=submit] {
 }
 
 div.row {
-    margin-right: 45%;
+    margin-right: 20%;
     margin-left: 10%;
 }
 
@@ -314,34 +313,69 @@ textarea {
     padding: 50px 0px 50px 0px;
 }
 
-.home_footer {
+.footer_link {
     display: inline-block;
-    padding-right: 15px;
+    padding-bottom: 20px;
 }
 
-a.home_footer {
-    color: rgb(107,107,107);
+.home_footer {
+    color: #777;
+    background-color: #ffffff;
+    border-color: #6b6b6b;
+}
+
+a.link.home_footer {
+    display: inline-block;
+    padding-right: 15px;
+    color: #777;
 }
 
 .about_footer {
+    color: #777;
+    background-color: #ffffff;
+    border-color: #6b6b6b;
+}
+
+a.link.about_footer {
     display: inline-block;
     padding-right: 15px;
     padding-left: 15px;
+    color: #777;
 }
 
 .team_footer {
+    color: #777;
+    background-color: #ffffff;
+    border-color: #6b6b6b;
+}
+
+a.link.team_footer {
     display: inline-block;
     padding-right: 15px;
     padding-left: 15px;
+    color: #777;
 }
 
 .port_footer {
+    color: #777;
+    background-color: #ffffff;
+    border-color: #6b6b6b;
+}
+
+a.link.port_footer {
     display: inline-block;
     padding-right: 15px;
     padding-left: 15px;
+    color: #777;
 }
 
 .contact_footer {
-    display: inline-block;
+    color: #777;
+    background-color: #ffffff;
+    border-color: #6b6b6b;
+}
+
+a.link.contact_footer {
     padding-left: 15px;
+    color: #777;
 }
